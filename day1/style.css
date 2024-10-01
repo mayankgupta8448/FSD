@@ -1,0 +1,23 @@
+
+body {
+    background-color: rgb(144, 97, 97);
+
+}
+#heading {
+    background-color: blueviolet;
+    font-size: 30px;
+    border-color: aqua;
+    border-radius: 12px;
+    color: aquamarine;
+    text-align: center;
+}
+table {
+    width: 50px;
+    font-size: 20px;
+    color: bisque;
+    font-weight: 50px;
+}
+#container {
+    display: flex;
+    justify-content: center;
+}
