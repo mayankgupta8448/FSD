@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finish Types</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: white;
+        }
+
+        /* Navigation Bar */
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #000;
+            padding: 20px;
+            color: white;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            color: #f36e6e;
+        }
+
+        /* Main Container */
+        .container {
+            display: flex;
+            justify-content: center;
+            padding: 50px 0;
+        }
+
+        /* Individual Boxes */
+        .box {
+            text-align: center;
+            height: 300px;
+            width: 300px;
+            background-color: #080808;
+            padding: 30px;
+            border-radius: 30px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        .box img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+        }
+
+        .box h3 {
+            color: #f36e6e;
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        .box p {
+            color: #b3b3b3;
+            margin-bottom: 20px;
+        }
+
+        .box a {
+            text-decoration: none;
+            color: #00b3ff;
+            font-weight: bold;
+        }
+
+        .box a:hover {
+            color: #0088cc;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="#">PRODUCTS</a>
+        <a href="#">DISCOUNTS</a>
+        <a href="#">OUR PARTNERS</a>
+        <a href="#">ABOUT US</a>
+    </nav>
+
+    <!-- Main Content with Boxes -->
+    <div class="container">
+        <div class="box">
+            <img src="https://via.placeholder.com/100" alt="MATTE">
+            <h3>MATTE</h3>
+            <p>a subtle but elegant finish for low-touch and delicate surfaces</p>
+            <a href="#">Explore</a>
+        </div>
+        <div class="box">
+            <img src="https://via.placeholder.com/100" alt="SEMI-GLOSS">
+            <h3>SEMI-GLOSS</h3>
+            <p>our signature finish for high-wear parts, details and surfaces</p>
+            <a href="#">Explore</a>
+        </div>
+        <div class="box">
+            <img src="https://via.placeholder.com/100" alt="HIGH-GLOSS">
+            <h3>HIGH-GLOSS</h3>
+            <p>an eye-stopping shine best for metal and other smooth surfaces</p>
+            <a href="#">Explore</a>
+        </div>
+    </div>
+
+</body>
+</html>
